@@ -136,6 +136,7 @@ h4 {
 
 .lightpurple-bg img {
   margin-block: 24px;
+  border-radius: 10px;
 }
 
 .lightpurple-bg h5 {
@@ -348,6 +349,13 @@ h4 {
     grid-area: bg1;
   }
 
+  .purple-bg h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+
    .group1 {
     display: flex;
     align-items: center;
@@ -355,14 +363,15 @@ h4 {
   }
 
   .small-bg {
-    width: 322px;
+    width: 438px;
     height: 247px;
   }
 
   .yellow-bg {
-    width: 322px;
+    width: 507px;
     height: 247px;
   }
+
 
   .lightpurple-bg {
     grid-area: bg4;
@@ -395,7 +404,7 @@ h4 {
 
   .bottom-yellow-bg {
    width: 256px;
-   height: 479px;
+   height: 428px;;
    margin-top: 32px;
   }
 
@@ -408,8 +417,16 @@ h4 {
   padding-top: 59px;
  }
 
+ .lightpurple-bg h5 {
+  color: rgb(90, 83, 83);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-inline: 24px;
 }
 
-
-
-
+.darkpurple-bg h3 {
+  margin-block: auto;
+  font-size: 48px;
+}
+}
